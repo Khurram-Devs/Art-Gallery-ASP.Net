@@ -1,0 +1,28 @@
+﻿@{
+    if (ViewData.TryGetValue("ParentLayout", out var parentLayout) && parentLayout !=  null)
+    {
+        Layout = parentLayout.ToString();
+    }
+    else
+    {
+        Layout = "/Areas/Identity/Pages/_Layout.cshtml";
+    }
+}
+
+<div class="container d-flex justify-content-center align-items-center flex-column ">
+    <h1 class="text-center"><h1>@ViewData["Title"]</h1></h1>
+
+    <div class="border my-2 px-3 py-2 rounded shadow w-100 gredientCard">
+<div>
+    <h2>Change your account settings</h2>
+    <hr />
+    
+            @RenderBody()
+    </div>
+</div>
+
+</div>
+
+@section Scripts {
+    @RenderSection("Scripts", required: false)
+}

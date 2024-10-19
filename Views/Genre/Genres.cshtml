@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Genre>
+@{
+    ViewData["Title"] = "Genres";
+}
+
+<div class="container">
+    <h1 class="text-center enchantedLand">Genre</h1>
+    <a asp-action="AddGenre" asp-controller="Genre" class="btn btn-primary my-3">Add More</a>
+    @if (Model != null && Model.Any())
+    {
+        <div class="table-responsive border rounded-2 gredientCard Nohover">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th class="text-center" width="80%">Genre</th>
+                        <th class="text-center" width="20%">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var genre in Model)
+                    {
+                        <tr>
+                            <td class="text-center fw-bold">@genre.GenreName</td>
+                            <td class="text-center">
+                                <a asp-action="UpdateGenre" asp-controller="Genre" asp-route-GenreId="@genre.GenreId" class="btn btn-success my-1">Edit</a>
+                                <a asp-action="DeleteGenre" asp-controller="Genre" asp-route-GenreId="@genre.GenreId" class="btn btn-danger my-1" onclick="return window.confirm('Are you sure?')">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <h3 class="text-center text-danger w-100 py-5">No Records Found!</h3>
+    }
+</div>

@@ -1,0 +1,46 @@
+﻿@model CheckoutModel
+@{
+    ViewData["Title"] = "Checkout";
+}
+
+<div class="container">
+    <h1 class="text-center enchantedLand">Checkout</h1>
+    <form asp-action="Checkout">
+        <div class="table-responsive border rounded-2 gredientCard Nohover">
+            <div class="py-2">
+                <label asp-for="Name" class="form-label">Name*</label>
+                <input type="text" class="form-control" asp-for="Name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="py-2">
+                <label asp-for="Email" class="form-label">Email*</label>
+                <input type="email" class="form-control" asp-for="Email" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="py-2">
+                <label asp-for="MobileNumber" class="form-label">MobileNumber*</label>
+                <input type="number" class="form-control" asp-for="MobileNumber" />
+                <span asp-validation-for="MobileNumber" class="text-danger"></span>
+            </div>
+            <div class="py-2">
+                <label asp-for="Address" class="form-label">Address*</label>
+                <textarea class="form-control" asp-for="Address" rows="5"></textarea>
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="py-2">
+                <label asp-for="PaymentMethod" class="form-label">COD*</label>
+                <select asp-for="PaymentMethod" class="form-control">
+                    <option value="" selected disabled>Select Payment Method</option>
+                    @foreach (var method in Enum.GetValues(typeof(Art_Gallery.Constants.PaymentMethods)))
+                    {
+                        <option value="@method.ToString()">@method.ToString()</option>
+                    }
+                </select>
+                <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="my-2">
+            <button type="submit" class="btn btn-primary">Next</button>
+        </div>
+    </form>
+</div>

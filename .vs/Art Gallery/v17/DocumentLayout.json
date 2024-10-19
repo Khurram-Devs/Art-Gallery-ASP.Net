@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|d:\\khurram data\\codings\\c#\\art gallery\\views\\stock\\stocks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|solutionrelative:views\\stock\\stocks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|solutionrelative:views\\cart\\checkout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\repositories\\ihomerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|solutionrelative:repositories\\ihomerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\repositories\\homerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|solutionrelative:repositories\\homerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\controllers\\artcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|solutionrelative:controllers\\artcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3E920486-DF34-447B-BDE7-4F325076AED7}|Art Gallery.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Stocks.cshtml",
+              "DocumentMoniker": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Views\\Stock\\Stocks.cshtml",
+              "RelativeDocumentMoniker": "Views\\Stock\\Stocks.cshtml",
+              "ToolTip": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Views\\Stock\\Stocks.cshtml",
+              "RelativeToolTip": "Views\\Stock\\Stocks.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T16:53:03.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Checkout.cshtml",
+              "DocumentMoniker": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Views\\Cart\\Checkout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cart\\Checkout.cshtml",
+              "ToolTip": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Views\\Cart\\Checkout.cshtml",
+              "RelativeToolTip": "Views\\Cart\\Checkout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T16:52:53.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IHomeRepository.cs",
+              "DocumentMoniker": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Repositories\\IHomeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IHomeRepository.cs",
+              "ToolTip": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Repositories\\IHomeRepository.cs",
+              "RelativeToolTip": "Repositories\\IHomeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:52:51.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeRepository.cs",
+              "DocumentMoniker": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Repositories\\HomeRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\HomeRepository.cs",
+              "ToolTip": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Repositories\\HomeRepository.cs",
+              "RelativeToolTip": "Repositories\\HomeRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:52:49.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBoAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:52:39.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArtController.cs",
+              "DocumentMoniker": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Controllers\\ArtController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ArtController.cs",
+              "ToolTip": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Controllers\\ArtController.cs",
+              "RelativeToolTip": "Controllers\\ArtController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:52:38.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T16:52:35.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAADgAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-23T16:52:22.049Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

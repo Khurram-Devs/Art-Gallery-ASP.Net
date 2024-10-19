@@ -1,0 +1,28 @@
+﻿@model UpdateOrderStatusModel
+@{
+    ViewData["Title"] = "Update Payment Status";
+}
+
+<div class="container-md d-flex justify-content-center align-items-center flex-column">
+    <h1 class="text-center enchantedLand">@ViewData["Title"]</h1>
+    <a class="my-2 btn btn-primary" asp-action="AllOrders">Back</a>
+    <div class="border my-2 px-3 py-2 rounded shadow gredientCard" style="width:100%; max-width:400px;">
+        <form asp-action="UpdateOrderStatus" class="pt-2">
+            <input type="hidden" asp-for="OrderId" />
+            <div class="mb-2">
+                <label class="fw-semibold">Order Status</label>
+                <select class="form-control" asp-for="OrderStatusId" asp-items="@Model.OrderStatusList">
+                    <option value="" selected disabled>Select order status</option>
+                </select>
+                <span class="text-danger" asp-validation-for="OrderStatusId"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Update</button>
+            @if (TempData["msg"] != null)
+            {
+                <div class="text-info my-2">
+                    @TempData["msg"]
+                </div>
+            }
+        </form>
+    </div>
+</div>

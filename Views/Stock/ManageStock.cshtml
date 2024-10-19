@@ -1,0 +1,22 @@
+﻿@model StockDTO
+@{
+    ViewData["Title"] = "Manage Stock";
+}
+
+<div class="container-md d-flex justify-content-center align-items-center flex-column">
+    <h1 class="text-center enchantedLand">@ViewData["Title"]</h1>
+    <a asp-action="Stock" asp-controller="Stock" class="btn btn-primary">Back</a>
+    <div class="border my-2 px-3 py-2 rounded shadow gredientCard" style="width:100%; max-width:400px;">
+        <form asp-action="ManageStock">
+            <input type="hidden" asp-for="ArtId" />
+            <div class="my-2">
+                <label class="fw-semibold">Quantity</label>
+                <input type="number" class="form-control" asp-for="Quantity" />
+                <span asp-validation-for="Quantity" class="text-danger"></span>
+            </div>
+            <div class="my-2">
+                <button type="submit" class="btn btn-info">Update</button>
+            </div>
+        </form>
+    </div>
+</div>

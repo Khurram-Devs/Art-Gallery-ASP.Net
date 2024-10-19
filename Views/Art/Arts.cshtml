@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Art>
+
+<div class="container-xl mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h1 class="text-center mb-4 enchantedLand">
+                Arts @if (User.IsInRole("Admin"))
+                {
+                    <a asp-action="AddArt" asp-controller="Art"> <span class="btn btn-sm btn-primary poppins fs-6">Add More</span></a>
+                }
+            </h1>
+            
+        </div>
+    </div>
+</div>
+
+
+<div class="album pb-5">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3">
+            @if (Model?.Count() > 0)
+            {
+                @foreach (var art in Model)
+                {
+                    <div class="col">
+                        <div class="card shadow-sm gredientCard">
+                            <img src="/UploadImage/@(string.IsNullOrEmpty(art.ArtImage) ? "NoImage.jpg" : art.ArtImage)" class="card-img-top rounded" height="300" alt="Art Image" data-bs-toggle="modal" data-bs-target="#PreviewModal" data-bs-image="/UploadImage/@art.ArtImage">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bold text-capitalize">@art.ArtName</h5>
+                                <p class="card-text"><span class="fw-bold">Artist: </span>@art.ArtistName</p>
+                                <p class="card-text"><span class="fw-bold">Genre: </span>@art.GenreName</p>
+                                <p class="card-text"><span class="fw-bold">Price: </span>@art.ArtPrice</p>
+                                @if (User.IsInRole("Admin"))
+                                {
+                                    <a asp-action="UpdateArt" asp-controller="Art" asp-route-ArtId="@art.ArtId" class="mt-2 btn btn-success">Edit</a>
+                                    <a asp-action="DeleteArt" asp-controller="Art" asp-route-ArtId="@art.ArtId" class="mt-2 btn btn-danger" onclick="return window.confirm('Are you Sure?')">Delete</a>
+                                }
+
+                                @if (art.Quantity > 0)
+                                {
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <a asp-action="Stocks" asp-controller="Stock" asp-route-sTerm="@art.ArtName" class="mt-2 btn btn-success"><strong>In Stock:</strong> @art.Quantity</a>
+                                    }
+                                    else
+                                    {
+                                        <button type="button" onclick="add(@art.ArtId)" class="mt-2 btn btn-secondary">Add to cart <i class="bi bi-cart-plus"></i></button>
+                                    }
+                                }
+                                else
+                                {
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        <a asp-action="Stocks" asp-controller="Stock" asp-route-sTerm="@art.ArtName" class="mt-2 btn btn-danger fw-semibold">Out of Stock</a>
+                                    }
+                                    else
+                                    {
+                                        <a class="mt-2 btn btn-danger fw-semibold">Out of Stock</a>
+                                    }
+                                }
+
+
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <h3 class="text-center text-danger w-100 py-5">No Records Found!</h3>
+            }
+        </div>
+    </div>
+</div>
+

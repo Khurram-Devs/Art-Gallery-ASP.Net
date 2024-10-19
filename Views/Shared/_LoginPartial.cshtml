@@ -1,0 +1,57 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+
+
+<ul class="navbar-nav mb-2 mb-lg-0 ">
+    @if (!User.IsInRole("Admin"))
+    {
+    <li class="nav-item d-flex align-items-center">
+            <span class="badge text-bg-info rounded-pill" id="cartCount"></span>
+        <a class="nav-link" aria-current="page" href="/Cart/GetUserCart">
+            <i class="bi bi-cart2"></i>
+        </a>
+    </li>
+    }
+
+
+
+
+    @if (SignInManager.IsSignedIn(User))
+    {
+        if (!User.IsInRole("Admin"))
+        {
+            <li class="nav-item">
+                <a class="nav-link" href="/UserOrder/UserOrders">
+                    Orders
+                </a>
+            </li>
+        }
+
+            <li class="nav-item">
+            <a class="nav-link text-capitalize" id="username">
+               @User.Identity?.Name
+            </a>
+        </li>
+
+      
+       
+
+        <li class="nav-item">
+            <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                <button type="submit" class="btn btn-link nav-link">Logout</button>
+            </form>
+        </li>
+
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link mx-2" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link  mx-2" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        </li>
+    }
+</ul>

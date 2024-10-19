@@ -1,0 +1,67 @@
+﻿@model ShoppingCart
+@{
+    ViewData["Title"] = "GetUserCart";
+}
+
+<div class="container">
+    <h1 class="text-center enchantedLand">My Cart</h1>
+    @if (Model != null && Model.CartDetails != null && Model.CartDetails.Count > 0)
+    {
+        <div class="table-responsive border rounded-2 gredientCard Nohover">
+            <table class="table  table-hover ">
+                <thead>
+                    <tr>
+                        <th>Art</th>
+                        <th>Image</th>
+                        <th>Genre</th>
+                        <th>Unit Price(US$)</th>
+                        <th>Total Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.CartDetails)
+                    {
+                        <tr>
+                            <td class="text-capitalize fw-bold">@item.Art.ArtName</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(item.Art.ArtImage))
+                                {
+                                    <img src="/uploadimage/@item.Art.ArtImage" style="width:150px;height:auto" data-bs-toggle="modal" data-bs-target="#PreviewModal" data-bs-image="/UploadImage/@item.Art.ArtImage" />
+                                }
+                                else
+                                {
+                                    <img src="/uploadimage/noimage.jpg" style="width:100%;height:100px" />
+                                }
+                            </td>
+                            <td>@item.Art.Genre.GenreName</td>
+                            <td>@item.Art.ArtPrice X @item.Quantity</td>
+                            <td>@(item.Art.ArtPrice * item.Quantity)</td>
+                            <td>
+                                @if (item.Quantity < item.Art.Stock.Quantity)
+                                {
+                                    <a class="btn btn-success" href="/Cart/AddItem?artId=@item.ArtId&redirect=1">+</a>
+                                }
+                                else
+                                {
+                                    <span class="btn border border-danger">Max</span>
+                                }
+                                <a class="btn btn-danger" href="/Cart/RemoveItem?artId=@item.ArtId">-</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="my-2">
+            <h5 class="fw-semibold">Total(US$):</h5> <span class="fw-bold"> @(Model.CartDetails.Select(item => item.Art.ArtPrice * item.Quantity).Sum())</span>
+        </div>
+        <div class="my-2">
+            <a class="btn btn-primary" href="/Cart/Checkout">Checkout</a>
+        </div>
+    }
+    else
+    {
+        <h3 class="text-center text-danger w-100 py-5">Cart is empty</h3>
+    }
+</div>

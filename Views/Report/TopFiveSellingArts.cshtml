@@ -1,0 +1,76 @@
+﻿@model Art_Gallery.Models.DTOs.TopNSoldArtsVm
+@{
+    ViewData["Title"] = "Top Selling Arts";
+}
+
+
+
+<div class="container">
+    <h1 class="text-center enchantedLand">Top Selling Arts</h1>
+
+   
+    <form class="my-2" asp-action="TopFiveSellingArts" method="get">
+        <div class="row g-2">
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <input type="date" class="form-control" name="sDate" />
+            </div>
+            <div class="col-md-4 d-flex justify-content-center align-items-center">
+                <input type="date" class="form-control" name="eDate" />
+            </div>
+            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                <button type="submit" class="btn btn-primary w-100">Filter</button>
+            </div>
+            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                <a href="@Url.Action("TopFiveSellingArts", "Report")" class="btn btn-info w-100">Clear</a>
+            </div>
+        </div>
+    </form>
+
+
+
+
+    @if (Model != null && Model.TopNSoldArts != null)
+    {
+        
+
+        <div class="table-responsive border rounded-2 gredientCard Nohover">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Art</th>
+                        <th>Artist</th>
+                        <th>Sold Units</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.TopNSoldArts)
+                    {
+                        <tr>
+                            <td>
+                                @if (!string.IsNullOrEmpty(item.ArtImage))
+                                {
+                                    <img src="/UploadImage/@item.ArtImage" style="width:150px;height:auto" data-bs-toggle="modal" data-bs-target="#PreviewModal" data-bs-image="/UploadImage/@item.ArtImage" />
+                                }
+                                else
+                                {
+                                    <img src="/uploadimage/noimage.jpg" style="width:100%;height:100px" />
+                                }
+                            </td>
+                            <td class="text-capitalize fw-bold">@item.ArtName</td>
+                            <td>@item.ArtistName</td>
+                            <td>@item.TotalUnitSold</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="my-2">
+            <h5 class="fw-semibold">Showing Results from @Model.StartDate.ToString("dd-MM-yyyy") to @Model.EndDate.ToString("dd-MMM-yyyy")</h5>
+        </div>
+    }
+    else
+    {
+        <h3 class="text-center text-danger w-100 py-5">No Records Found!</h3>
+    }
+</div>

@@ -1,0 +1,205 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Art Gallery.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Art Gallery.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\Fonts\\Enchanted Land.otf",
+      "PackagePath": "staticwebassets\\Fonts\\Enchanted Land.otf"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\Fonts\\Handmade.otf",
+      "PackagePath": "staticwebassets\\Fonts\\Handmade.otf"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\Fonts\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\Fonts\\carolingia.ttf",
+      "PackagePath": "staticwebassets\\Fonts\\carolingia.ttf"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\13e4aa0c-2fa2-49f2-baec-3018847fcfae.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\13e4aa0c-2fa2-49f2-baec-3018847fcfae.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\2430531b-88ff-42ba-87fb-ad932339e81a.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\2430531b-88ff-42ba-87fb-ad932339e81a.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\41475c90-72ed-4ef1-8eba-af8e69aaba3d.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\41475c90-72ed-4ef1-8eba-af8e69aaba3d.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\437f817e-dad4-44e5-8f43-77d47325e5d2.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\437f817e-dad4-44e5-8f43-77d47325e5d2.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\62d0a0c7-0fa3-4436-bafc-9903ace43e4f.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\62d0a0c7-0fa3-4436-bafc-9903ace43e4f.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\766a9db6-72bd-4166-a2c0-04d747a8846e.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\766a9db6-72bd-4166-a2c0-04d747a8846e.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\Brands\\1.png",
+      "PackagePath": "staticwebassets\\UploadImage\\Brands\\1.png"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\Brands\\2.png",
+      "PackagePath": "staticwebassets\\UploadImage\\Brands\\2.png"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\Brands\\3.png",
+      "PackagePath": "staticwebassets\\UploadImage\\Brands\\3.png"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\Brands\\4.png",
+      "PackagePath": "staticwebassets\\UploadImage\\Brands\\4.png"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\Brands\\5.png",
+      "PackagePath": "staticwebassets\\UploadImage\\Brands\\5.png"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\Brands\\v2-1.png",
+      "PackagePath": "staticwebassets\\UploadImage\\Brands\\v2-1.png"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\Brands\\v2-2.png",
+      "PackagePath": "staticwebassets\\UploadImage\\Brands\\v2-2.png"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\Brands\\v2-3.png",
+      "PackagePath": "staticwebassets\\UploadImage\\Brands\\v2-3.png"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\Brands\\v2-4.png",
+      "PackagePath": "staticwebassets\\UploadImage\\Brands\\v2-4.png"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\Brands\\v2-5.png",
+      "PackagePath": "staticwebassets\\UploadImage\\Brands\\v2-5.png"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\a06ea8bd-5509-4b85-ac7e-30649523aafe.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\a06ea8bd-5509-4b85-ac7e-30649523aafe.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\a254e378-de88-4745-a5be-83aaf0bf7d32.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\a254e378-de88-4745-a5be-83aaf0bf7d32.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\about-image-1.png",
+      "PackagePath": "staticwebassets\\UploadImage\\about-image-1.png"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\be9e81a3-57fd-47a2-89a6-0b5fa4e692f6.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\be9e81a3-57fd-47a2-89a6-0b5fa4e692f6.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\blog-single-3.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\blog-single-3.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\cccd52bf-1364-455f-94a3-7c019dcfc90e.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\cccd52bf-1364-455f-94a3-7c019dcfc90e.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\ee981843-fc49-4450-a898-e0fedeb5284f.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\ee981843-fc49-4450-a898-e0fedeb5284f.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\event-v1-2.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\event-v1-2.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\event-v2-1.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\event-v2-1.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\event-v2-2.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\event-v2-2.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\fd64f3ba-6d95-4b33-9627-27004417efc4.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\fd64f3ba-6d95-4b33-9627-27004417efc4.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\img07.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\img07.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\img198.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\img198.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\img199.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\img199.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\img202.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\img202.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\img41.png",
+      "PackagePath": "staticwebassets\\UploadImage\\img41.png"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\v1-1.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\v1-1.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\v1-2.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\v1-2.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\UploadImage\\v1-3.jpg",
+      "PackagePath": "staticwebassets\\UploadImage\\v1-3.jpg"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "D:\\KHURRAM DATA\\Codings\\C#\\Art Gallery\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Art Gallery.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Art Gallery.props",
+      "PackagePath": "build\\Art Gallery.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Art Gallery.props",
+      "PackagePath": "buildMultiTargeting\\Art Gallery.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Art Gallery.props",
+      "PackagePath": "buildTransitive\\Art Gallery.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

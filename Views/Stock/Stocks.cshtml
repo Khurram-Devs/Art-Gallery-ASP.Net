@@ -1,0 +1,44 @@
+﻿@model IEnumerable<StockDisplayModel>
+@{
+    ViewData["Title"] = "Stocks";
+}
+
+<div class="container">
+    <h1 class="text-center enchantedLand">Stocks</h1>
+    <form asp-action="Stocks" method="get" class="my-2 d-flex gap-2">
+        <input type="text" name="sTerm" class="form-control w-25" placeholder="Search by Art" />
+        <button type="submit" class="btn btn-primary">Find</button>
+        <a asp-action="Stocks" asp-controller="Stock" class="btn btn-primary">Clear</a>
+    </form>
+    @if (Model != null && Model.Any())
+    {
+       
+        <div class="table-responsive border rounded-2 gredientCard Nohover">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th class="text-center">Art</th>
+                        <th class="text-center">Stock</th>
+                        <th class="text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td class="text-capitalize text-center @(item.Quantity == 0 ? "text-danger fw-semibold" : "")" style="width:40%">@item.ArtName</td>
+                            <td class="text-center @(item.Quantity == 0 ? "text-danger fw-semibold" : "")" style="width:40%">@item.Quantity</td>
+                            <td class="text-center" style="width:20%">
+                                <a asp-action="ManageResult" asp-controller="Stock" asp-route-artId="@item.ArtId" class="btn btn-info">Update Stock</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+    else
+    {
+        <h3 class="text-center text-danger w-100 py-5">No Records Found!</h3>
+    }
+</div>

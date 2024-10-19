@@ -1,0 +1,48 @@
+﻿@model ArtDTO
+@{
+    ViewData["Title"] = "Update Art";
+}
+
+<div class="container-md d-flex justify-content-center align-items-center flex-column">
+    <h1 class="text-center enchantedLand">@ViewData["Title"]</h1>
+    <a asp-action="Arts" asp-controller="Art" class="btn btn-primary">Back</a>
+    <div class="border my-2 px-3 py-2 rounded shadow gredientCard" style="width:100%; max-width:400px;">
+        <form asp-action="UpdateArt" enctype="multipart/form-data">
+            <input type="hidden" asp-for="ArtId" />
+            <input type="hidden" asp-for="ArtImage" />
+            <div class="my-2">
+                <label class="fw-semibold">Art*</label>
+                <input type="text" class="form-control" asp-for="ArtName" />
+                <span asp-validation-for="ArtName" class="text-danger"></span>
+            </div>
+            <div class="my-2">
+                <label class="fw-semibold">Artist Name*</label>
+                <input type="text" class="form-control" asp-for="ArtistName" />
+                <span asp-validation-for="ArtistName" class="text-danger"></span>
+            </div>
+            <div class="my-2">
+                <label class="fw-semibold">Genre*</label>
+                <select class="form-control" asp-for="GenreId" asp-items="Model.GenreList">
+                    <option selected disabled value="">Select Genre...</option>
+                </select>
+                <span asp-validation-for="GenreId" class="text-danger"></span>
+            </div>
+            <div class="my-2">
+                <label class="fw-semibold">Price*</label>
+                <input type="number" class="form-control" asp-for="ArtPrice" />
+                <span asp-validation-for="ArtPrice" class="text-danger"></span>
+            </div>
+            <div class="my-2 d-flex flex-column">
+                <label class="fw-semibold">Image</label>
+                @if (!string.IsNullOrEmpty(Model.ArtImage))
+                {
+                    <img src="/UploadImage/@Model.ArtImage" class="rounded my-2" style="width: 250px;" />
+                }
+                <input type="file" class="form-control" asp-for="ImageFile" />
+            </div>
+            <div class="my-2">
+                <button type="submit" class="btn btn-info">Update</button>
+            </div>
+        </form>
+    </div>
+</div>
